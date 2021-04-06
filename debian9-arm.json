@@ -1,0 +1,15 @@
+{
+  "_comment": "Build with `packer build -var-file=debian9.json debian.json`",
+  "vm_name": "debian9",
+  "cpus": "1",
+  "cpu_type": "arm",
+  "disk_size": "65536",
+  "iso_checksum": "2dfe689a5a49be94338c0f250c6d972185bef4dbad4997f8ee1fa5a2320a03548cc4f40e121b3947e55016d2d90547da21bea013087d5cca13b42386ea92e5f1",
+  "iso_checksum_type": "sha512",
+  "iso_name": "debian-9.13.0-arm64-netinst.iso",
+  "iso_url": "https://cdimage.debian.org/cdimage/archive/9.13.0/arm64/iso-cd/debian-9.13.0-arm64-netinst.iso",
+  "memory": "512",
+  "remove_docs": "false",
+  "preseed" : "preseed-jessie.cfg",
+  "headless": "false"
+}
